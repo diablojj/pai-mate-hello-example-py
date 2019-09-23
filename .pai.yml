@@ -1,5 +1,6 @@
 deployScripts:
   start:
+    - #!/bin/sh
     - virtualenv-3 .venv
     - source .venv/bin/activate
     - pip3 install flask
